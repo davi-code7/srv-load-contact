@@ -1,10 +1,9 @@
 import { Router } from 'express';
-import OrchyBase from 'orchy-base-code7';
 
-import { contact } from '@controllers/contact/contact';
+import { getContact } from '../../controllers/contact/contact';
 
 const router = Router();
 
-router.post('', contact);
+router.post('', getContact);
 
 export default router;
