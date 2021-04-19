@@ -32,7 +32,7 @@ export async function contact(req: Request, res: Response): Promise<Response> {
           JSON.stringify(contact),
           'contact',
           'snsContact',
-          'arn:aws:sns:us-east-1:303732912389:sns-contact.fifo',
+          'arn:aws:sns:us-east-1:742104988707:sns-contact.fifo',
         );
 
         console.log(publish);
